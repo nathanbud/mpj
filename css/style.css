@@ -1,0 +1,55 @@
+:root{
+    --black: #1A1A1D;
+    --gray: #4E4E50;
+    --d-red: #6F2232;
+    --red:#950740;
+    --l-red:#C3073F;
+    --white:#EEEEEE;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Rubik',
+   sans-serif;
+   background:linear-gradient(35deg, var(--black), var(--black));
+   color:var(--white);
+}
+
+header nav{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 4%;
+    /* background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%); */
+    border-bottom: 1px solid var(--gray);
+}
+
+header nav .menu{
+    width:60%;
+}
+.menu ul{
+     display: flex;
+     justify-content: space-evenly;
+}
+.menu ul li{
+    display:inline-block;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   color: var(--l-red);
+}
+
+.main-container{
+    max-width: 1920px;
+    width:100%;
+    margin: auto;
+}
