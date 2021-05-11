@@ -16,8 +16,8 @@
 body{
    font-family: 'Rubik',
    sans-serif;
-   background:linear-gradient(35deg, var(--black), var(--black));
-   color:var(--white);
+   background:linear-gradient(35deg, var(--white), var(--white));
+   color:var(--gray);
 }
 
 header nav{
